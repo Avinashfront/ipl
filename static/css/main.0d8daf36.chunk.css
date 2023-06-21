@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap);
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
+}
+
+.Topbar_Topbar__PvX8m {
+    width: 100%;
+    height: 80px;
+    padding: 12px 8%;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.Topbar_Logo__3Ngck {
+    height: 56px
+}
+
+.Topbar_RightMenu__2qdqF {
+    display: inline-flex;
+    align-items: center
+}
+
+.Topbar_SearchBoxWrapper__3yzyW {
+    width: 300px;
+    margin-right: 32px;
+    position: relative
+}
+
+.Topbar_SearchBox__1lyWN {
+    width: 100%;
+    font-size: 14px;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    outline: none
+}
+
+.Topbar_SearchBox__1lyWN:focus {
+    border-bottom-color: #999
+}
+
+.Topbar_SearchBoxWrapper__3yzyW>i {
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #999;
+    cursor: pointer
+}
+
+.Topbar_SearchBox__1lyWN:focus~i {
+    color: rgba(0, 0, 0, .8)
+}
+
+.Topbar_ButtonWrapper__11LQq button,
+.Topbar_ButtonWrapper__11LQq button:last-of-type {
+    margin-right: 16px
+}
+
+.Button_Button__1hxBU {
+    color: #fff;
+    background-color: #19398a;
+    font-size: 14px;
+    padding: 8px 36px;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer
+}
+
+.TeamCard_TeamCard__2rJEM {
+    width: calc(25% - 20px);
+    height: 25vh;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 6px #999;
+    margin: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center
+}
+
+.TeamCard_TeamCard__2rJEM>article {
+    width: 100%
+}
+
+.TeamCard_TeamLogo__1CAq0 {
+    height: 80%;
+    vertical-align: middle
+}
+
+.Homepage_TeamGrid__1HklO {
+    width: 100%;
+    padding: 6% 8%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.PlayerCard_PlayerCard__3V5lN {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer
+}
+
+.PlayerCard_PlayerImageWrapper__IxBc_ {
+    padding: 0 2%;
+    display: flex;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+}
+
+.PlayerCard_PlayerImage__2NQPh {
+    width: 100%
+}
+
+.PlayerCard_PlayerDataWrapper__1pwlj {
+    padding: 16px
+}
+
+.PlayerCard_PlayerName__V5GIx {
+    margin: 0 0 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8)
+}
+
+.PlayerCard_PlayerStatsWrapper__38xmh {
+    width: 100%;
+    display: flex;
+    text-align: center
+}
+
+.PlayerCard_PlayerStatsWrapper__38xmh>div {
+    width: 33.33%;
+    border-right: 1px solid #ccc
+}
+
+.PlayerCard_PlayerStatsWrapper__38xmh>div:last-of-type {
+    border-right: none
+}
+
+.PlayerCard_StatValue__1qB-f {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .8);
+    margin: 0
+}
+
+.PlayerCard_StatLabel__3EO5Y {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .8);
+    margin: 0
+}
+
+.TeamDetailPage_MainContainer__jzWI4 {
+    padding: 24px 8% 4%;
+    box-sizing: border-box
+}
+
+.TeamDetailPage_TeamCard__1bf_z {
+    width: 100%;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #ccc;
+    margin-bottom: 48px
+}
+
+.TeamDetailPage_TeamImageWrapper__d94Pw {
+    width: 200px;
+    height: 150px;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px
+}
+
+.TeamDetailPage_TeamLogo__3YzRh {
+    height: 70%
+}
+
+.TeamDetailPage_TeamMetaWrapper__1o_I- {
+    width: calc(100% - 200px);
+    padding: 32px 16px;
+    box-sizing: border-box
+}
+
+.TeamDetailPage_MainHeading__1A_Be {
+    font-size: 24px;
+    margin: 0
+}
+
+.TeamDetailPage_PlayersGrid__3nPdR {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.TeamDetailPage_PlayersGrid__3nPdR>div {
+    width: calc(20% - 16px);
+    margin: 8px
+}
+
+.TeamDetailPage_NoResults__3KmYP {
+    font-size: 16px;
+    color: rgba(0, 0, 0, .6);
+    margin: 8px 0 0
+}
+
+.TeamDetailPage_StatsWrapper__2gWPZ {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 4px 0
+}
+
+.TeamDetailPage_StatsWrapper__2gWPZ:first-of-type {
+    margin-top: 24px
+}
+
+.TeamDetailPage_StatsLabel__M-rGm {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 8px 0 0;
+    color: rgba(0, 0, 0, .8)
+}
+
+.TeamDetailPage_StatsValue__jCcwk {
+    margin: 0
+}
+
+body,
+button,
+form,
+input,
+option,
+select,
+textarea {
+    font-family: "Poppins", sans-serif
+}
+
+.App_App__2vNQi main {
+    margin-top: 90px
+}
+
+.SearchPage_MainContainer__1wBj9 {
+    padding: 24px 8% 4%;
+    box-sizing: border-box
+}
+
+.SearchPage_SearchResultGrid__2D5Ka {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.SearchPage_SearchResultGrid__2D5Ka>div {
+    width: calc(20% - 16px);
+    margin: 8px
+}
+
+.SearchPage_NoResults__14Fka {
+    font-size: 60px;
+    color: rgba(0, 0, 0, .6);
+    margin: 0
+}
+
+.LoginPage_LoginForm__3Amb5 {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 24px 16px;
+    margin: 100px auto 0
+}
+
+.LoginPage_Heading__19ol_ {
+    margin: 0 0 24px
+}
+
+.LoginPage_InputField__21cm8 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 8px 0
+}
+
+.LoginPage_InputField__21cm8:last-of-type {
+    margin-bottom: 24px
+}
+
+.CreateTeamPage_CreationForm__RQTRw {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 24px 16px;
+    margin: 100px auto 0
+}
+
+.CreateTeamPage_Heading__QC1tN {
+    margin: 0 0 24px
+}
+
+.CreateTeamPage_Label__2iJCK {
+    font-size: 12px;
+    margin: 16px 0 4px
+}
+
+.CreateTeamPage_InputField__2KT8x {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none
+}
+
+.CreateTeamPage_ThemePickerWrapper__1Tcuf {
+    width: 100%;
+    display: flex;
+    align-self: center
+}
+
+.CreateTeamPage_ThemePickerWrapper__1Tcuf>div {
+    margin-right: 24px
+}
+
+.CreateTeamPage_ButtonWrapper__1Bz0Z {
+    margin-top: 36px
+}
+
+.CreateTeamPage_Error__1asrA {
+    margin: 4px 0;
+    color: red;
+    font-size: 12px
+}
+
+/*# sourceMappingURL=main.0d8daf36.chunk.css.map */
