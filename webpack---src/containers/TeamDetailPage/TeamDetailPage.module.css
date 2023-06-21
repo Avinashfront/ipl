@@ -1,0 +1,79 @@
+.MainContainer {
+    padding: 24px 8% 4%;
+    box-sizing: border-box;
+}
+
+.TeamCard {
+    width: 100%;
+    display: flex;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #ccc;
+    margin-bottom: 48px;
+}
+
+.TeamImageWrapper {
+    width: 200px;
+    height: 150px;
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.TeamLogo {
+    height: 70%;
+}
+
+.TeamMetaWrapper {
+    width: calc(100% - 200px);
+    padding: 32px 16px;
+    box-sizing: border-box;
+}
+
+.MainHeading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.PlayersGrid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PlayersGrid>div {
+    width: calc(20% - 16px);
+    margin: 8px;
+}
+
+.NoResults {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 8px 0 0;
+}
+
+.StatsWrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0;
+    padding: 4px 0;
+}
+
+.StatsWrapper:first-of-type {
+    margin-top: 24px;
+}
+
+.StatsLabel {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    margin-right: 8px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.StatsValue {
+    margin: 0;
+}

@@ -1,0 +1,59 @@
+.PlayerCard {
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer;
+}
+
+.PlayerImageWrapper {
+    padding: 0 2%;
+    display: flex;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.PlayerImage {
+    width: 100%;
+}
+
+.PlayerDataWrapper {
+    padding: 16px;
+}
+
+.PlayerName {
+    margin: 0 0 16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.PlayerStatsWrapper {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.PlayerStatsWrapper>div {
+    width: 33.33%;
+    border-right: 1px solid #ccc;
+}
+
+.PlayerStatsWrapper>div:last-of-type {
+    border-right: none;
+}
+
+.StatValue {
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}
+
+.StatLabel {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+}

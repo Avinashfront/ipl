@@ -1,0 +1,47 @@
+.CreationForm {
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 24px 16px;
+    margin: 100px auto 0;
+}
+
+.Heading {
+    margin: 0 0 24px;
+}
+
+.Label {
+    font-size: 12px;
+    margin: 16px 0 4px;
+}
+
+.InputField {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+}
+
+.ThemePickerWrapper {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.ThemePickerWrapper>div {
+    margin-right: 24px;
+}
+
+.ButtonWrapper {
+    margin-top: 36px;
+}
+
+.Error {
+    margin: 4px 0;
+    color: red;
+    font-size: 12px;
+}

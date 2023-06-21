@@ -1,0 +1,21 @@
+.MainContainer {
+    padding: 24px 8% 4%;
+    box-sizing: border-box;
+}
+
+.SearchResultGrid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SearchResultGrid>div {
+    width: calc(20% - 16px);
+    margin: 8px;
+}
+
+.NoResults {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+}

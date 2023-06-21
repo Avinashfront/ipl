@@ -1,0 +1,23 @@
+.LoginForm {
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    padding: 24px 16px;
+    margin: 100px auto 0;
+}
+
+.Heading {
+    margin: 0 0 24px;
+}
+
+.InputField {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 8px 0;
+}
+
+.InputField:last-of-type {
+    margin-bottom: 24px;
+}
